@@ -14,5 +14,6 @@ Download the free versions from https://dev.maxmind.com/geoip/geoip2/geolite2/.
 git clone https://github.com/ntsklab/geoip2-haproxy-ranges
 cd geoip2-haproxy-ranges
 docker build -t geoip2-haproxy-ranges .
-docker run --name <name> -v <host mmdb dir>:/usr/local/var/GeoIP/ geoip2-haproxy-ranges:latest
+docker run --name < name > -v < host mmdb dir >:/usr/local/var/GeoIP/ geoip2-haproxy-ranges:latest
 ```
+
