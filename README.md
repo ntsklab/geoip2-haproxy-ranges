@@ -3,6 +3,8 @@
 - Add Dockerfile
 - Changed from native Go to Docker golang:1.15
 - Automatic execution every 72 hours
+- See the following blog for examples of use.
+  <https://in-deep.blue/archives/1071>
 
 ## Running in docker
 
@@ -13,18 +15,16 @@ docker build -t geoip2-haproxy-ranges .
 docker run --name < name > -v < host mmdb dir >:/usr/local/var/GeoIP/ geoip2-haproxy-ranges:latest
 ```
 
-
 ### Below is the original Readme.md
 
 ## Generate ACL files per country for use with HAProxy
 
-Inspired by https://github.com/berkayunal/haproxy-geoip-iprange, but for use with GeoIP2/GeoLite2 dbs.
+Inspired by <https://github.com/berkayunal/haproxy-geoip-iprange>, but for use with GeoIP2/GeoLite2 dbs.
 
-Download the free versions from https://dev.maxmind.com/geoip/geoip2/geolite2/.
+Download the free versions from <https://dev.maxmind.com/geoip/geoip2/geolite2/>.
 
-* [Introduction to HAProxy ACLs](https://www.haproxy.com/blog/introduction-to-haproxy-acls/)
-* [Dovecot and HAProxy](https://wiki.dovecot.org/HAProxy)
-
+- [Introduction to HAProxy ACLs](https://www.haproxy.com/blog/introduction-to-haproxy-acls/)
+- [Dovecot and HAProxy](https://wiki.dovecot.org/HAProxy)
 
 ## Running
 
