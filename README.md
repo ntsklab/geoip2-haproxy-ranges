@@ -1,7 +1,7 @@
 ## modified geoip2-haproxy-ranges
 
 - Add Dockerfile
-- Changed from native Go to Docker golang:1.15
+- Changed from native Go to Docker golang:1.21
 - Automatic execution every 72 hours
 - See the following blog for examples of use.
   <https://in-deep.blue/archives/1071>
